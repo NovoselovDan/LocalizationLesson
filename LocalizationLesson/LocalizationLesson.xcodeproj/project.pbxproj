@@ -11,21 +11,30 @@
 		A540A20E1C2AEB0300E38B27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A540A20D1C2AEB0300E38B27 /* AppDelegate.m */; };
 		A540A2111C2AEB0300E38B27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A540A2101C2AEB0300E38B27 /* ViewController.m */; };
 		A540A2141C2AEB0300E38B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540A2121C2AEB0300E38B27 /* Main.storyboard */; };
-		A540A2161C2AEB0300E38B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A540A2151C2AEB0300E38B27 /* Assets.xcassets */; };
 		A540A2191C2AEB0300E38B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540A2171C2AEB0300E38B27 /* LaunchScreen.storyboard */; };
+		A540A2221C2AEBB400E38B27 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A540A2211C2AEBB400E38B27 /* Book.m */; };
+		A540A2271C2AEF9500E38B27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A540A2291C2AEF9500E38B27 /* Localizable.strings */; };
+		A5C75BC71C2B52F5003C5F01 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C75BC91C2B52F5003C5F01 /* cover.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5341F3F1C2B4E6C00BC3682 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "ru-RU"; path = "ru-RU.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		A540A2061C2AEB0300E38B27 /* LocalizationLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A540A20A1C2AEB0300E38B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A540A20C1C2AEB0300E38B27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A540A20D1C2AEB0300E38B27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A540A20F1C2AEB0300E38B27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A540A2101C2AEB0300E38B27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A540A2131C2AEB0300E38B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A540A2151C2AEB0300E38B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A540A2181C2AEB0300E38B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A540A21A1C2AEB0300E38B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A540A2201C2AEBB400E38B27 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A540A2211C2AEBB400E38B27 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		A540A2241C2AEE8800E38B27 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A540A2281C2AEF9500E38B27 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A5C75BC81C2B52F5003C5F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/cover.jpg; sourceTree = "<group>"; };
+		A5C75BCA1C2B52F7003C5F01 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-RU"; path = "ru-RU.lproj/cover.jpg"; sourceTree = "<group>"; };
+		A5C75BCB1C2B5310003C5F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5C75BCC1C2B5615003C5F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +67,17 @@
 		A540A2081C2AEB0300E38B27 /* LocalizationLesson */ = {
 			isa = PBXGroup;
 			children = (
+				A540A2201C2AEBB400E38B27 /* Book.h */,
+				A540A2211C2AEBB400E38B27 /* Book.m */,
 				A540A20C1C2AEB0300E38B27 /* AppDelegate.h */,
 				A540A20D1C2AEB0300E38B27 /* AppDelegate.m */,
 				A540A20F1C2AEB0300E38B27 /* ViewController.h */,
 				A540A2101C2AEB0300E38B27 /* ViewController.m */,
 				A540A2121C2AEB0300E38B27 /* Main.storyboard */,
-				A540A2151C2AEB0300E38B27 /* Assets.xcassets */,
 				A540A2171C2AEB0300E38B27 /* LaunchScreen.storyboard */,
 				A540A21A1C2AEB0300E38B27 /* Info.plist */,
+				A540A2291C2AEF9500E38B27 /* Localizable.strings */,
+				A540A22B1C2AF15800E38B27 /* Images */,
 				A540A2091C2AEB0300E38B27 /* Supporting Files */,
 			);
 			path = LocalizationLesson;
@@ -77,6 +89,14 @@
 				A540A20A1C2AEB0300E38B27 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A540A22B1C2AF15800E38B27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5C75BC91C2B52F5003C5F01 /* cover.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ru-RU",
 			);
 			mainGroup = A540A1FD1C2AEB0300E38B27;
 			productRefGroup = A540A2071C2AEB0300E38B27 /* Products */;
@@ -136,9 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C75BC71C2B52F5003C5F01 /* cover.jpg in Resources */,
 				A540A2191C2AEB0300E38B27 /* LaunchScreen.storyboard in Resources */,
-				A540A2161C2AEB0300E38B27 /* Assets.xcassets in Resources */,
 				A540A2141C2AEB0300E38B27 /* Main.storyboard in Resources */,
+				A540A2271C2AEF9500E38B27 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A540A2221C2AEBB400E38B27 /* Book.m in Sources */,
 				A540A2111C2AEB0300E38B27 /* ViewController.m in Sources */,
 				A540A20E1C2AEB0300E38B27 /* AppDelegate.m in Sources */,
 				A540A20B1C2AEB0300E38B27 /* main.m in Sources */,
@@ -161,7 +184,8 @@
 		A540A2121C2AEB0300E38B27 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A540A2131C2AEB0300E38B27 /* Base */,
+				A5341F3F1C2B4E6C00BC3682 /* ru-RU */,
+				A5C75BCB1C2B5310003C5F01 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -170,8 +194,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				A540A2181C2AEB0300E38B27 /* Base */,
+				A540A2241C2AEE8800E38B27 /* ru-RU */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A540A2291C2AEF9500E38B27 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A540A2281C2AEF9500E38B27 /* ru-RU */,
+				A5C75BCC1C2B5615003C5F01 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A5C75BC91C2B52F5003C5F01 /* cover.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C75BC81C2B52F5003C5F01 /* Base */,
+				A5C75BCA1C2B52F7003C5F01 /* ru-RU */,
+			);
+			name = cover.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,6 +343,7 @@
 				A540A21F1C2AEB0300E38B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

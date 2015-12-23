@@ -1,0 +1,11 @@
+/* 
+  Localiztions.strings
+  LocalizationLesson
+
+  Created by Daniil Novoselov on 23.12.15.
+  Copyright © 2015 Daniil Novoselov. All rights reserved.
+*/
+
+"bookTitle" = "The Hobbit";
+"bookAuthor" = "J.R.R.Tolkien";
+"bookDescription" = "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.";
